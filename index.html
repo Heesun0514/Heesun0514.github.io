@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huiscon Yi — Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #232f3e;
+      background: #ffffff;
+    }
+
+    h1 {
+      margin-bottom: 4px;
+      color: #232f3e;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 15px;
+      margin-top: 0;
+    }
+
+    .project {
+      border: 1px solid #e0e0e0;
+      padding: 24px;
+      border-radius: 10px;
+      margin: 30px 0;
+      background: #fafafa;
+      transition: box-shadow 0.2s;
+    }
+
+    .project:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .project h2 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #FF9900;
+      color: white;
+      padding: 3px 10px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 500;
+      margin-right: 6px;
+      margin-bottom: 4px;
+    }
+
+    .links a {
+      color: #0066cc;
+      text-decoration: none;
+      margin-right: 16px;
+      font-weight: 500;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #e0e0e0;
+      color: #999;
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Huiscon Yi</h1>
+  <p class="subtitle">
+    Higher Diploma in Science in Computing — Dublin Business School
+  </p>
+
+  <div class="project">
+    <h2>Daycare Digital Logbook — AWS Cloud Migration</h2>
+
+    <p>
+      Migrated a daycare attendance system from a single-server SQLite database
+      to AWS. Built with Node.js, PostgreSQL, AWS Cognito, and CloudFront.
+      17 Jest/Supertest integration tests, GitHub Actions CI.
+    </p>
+
+    <p>
+      <span class="tag">Node.js</span>
+      <span class="tag">Express</span>
+      <span class="tag">AWS RDS</span>
+      <span class="tag">Cognito</span>
+      <span class="tag">PostgreSQL</span>
+      <span class="tag">Jest</span>
+      <span class="tag">GitHub Actions</span>
+    </p>
+
+    <p class="links">
+      <a href="https://github.com/Heesun0514/Daycare-Digital-Logbook-AWS-Cloud-Migration">GitHub Repo</a>
+      <a href="https://d2d7c2s58id62i.cloudfront.net">Live Demo</a>
+    </p>
+  </div>
+
+  <footer>
+    © 2026 Huiscon Yi
+  </footer>
+
+</body>
+</html>
