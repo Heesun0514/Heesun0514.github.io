@@ -69,6 +69,26 @@
       text-decoration: underline;
     }
 
+    /* ───────────── Screenshots ───────────── */
+    .screenshots {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 20px 0;
+    }
+
+    .screenshots img {
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid #e0e0e0;
+      transition: transform 0.15s;
+      cursor: pointer;
+    }
+
+    .screenshots img:hover {
+      transform: scale(1.02);
+    }
+
     footer {
       margin-top: 60px;
       padding-top: 20px;
@@ -104,6 +124,11 @@
       <span class="tag">Jest</span>
       <span class="tag">GitHub Actions</span>
     </p>
+
+    <div class="screenshots">
+      <img src="docs/screenshots/teacher-dashboard.png" alt="Teacher Dashboard">
+      <img src="docs/screenshots/ecce-report.png" alt="ECCE Report">
+    </div>
 
     <p class="links">
       <a href="https://github.com/Heesun0514/Daycare-Digital-Logbook-AWS-Cloud-Migration">GitHub Repo</a>
